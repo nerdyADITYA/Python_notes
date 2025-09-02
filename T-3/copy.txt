@@ -1,0 +1,3 @@
+Hello my name is Aditya Kadia 
+I am currently studying python
+I am from class C8

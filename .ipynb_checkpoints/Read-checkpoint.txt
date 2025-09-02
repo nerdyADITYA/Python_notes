@@ -1,0 +1,95 @@
+python Libraries are set of useful functions so that we dont have to write the whole code from scratch.
+
+Dictionary - a dictionary in python is used to store data in key valuues pairs.
+student = {"name":"Aditya","Enrollment":"21C11029"}
+
+Functions - a function is a set of code which only runs when it is called.
+
+List - A list in python is used to store multiple items in a single variable.
+food = ["pizza","burger","Eggs"]
+dinner = random.choice(food)
+print(dinner)
+
+f strings is a slightly easier way to combbine strings and variables.
+age = 25
+print (f"Jim is {age} years old.")
+
+Refactor - refactoring is the process of restructuring the code while keeping the original functionality
+
+def greeting():
+    return "hello word"
+
+response = greeting()
+print (response)
+
+
+Variable - we can create a python variable by assigning a value to a lable by using the equal sign "=" the assinment operator
+name1
+HEIGHT
+my_name
+_name
+These are all valid lables for a variable but,
+123
+test!
+test@
+A variable cannot start with a number and it should not have any kind of special characters; And the python keywords cannot be used as a variable.
+
+
+Expressions - an expression is any kind of code that returns a value
+Statement - a statement is an operation on a value
+
+Comments - everytihng after a hashtag "#" is ignored in python; This is a special type of note or comments.
+
+Data types:
+1) String - anything surrounded by double quotations ("") is called a String.
+2) Integer - numbers are represented as integers
+3) Float -  floating point numbers are a type of fractions
+4) Complex - 
+5) Boolean
+6) Lists
+7) Tuples
+8) Ranges
+9) Dictionary
+10) Sets
+
+We can covert one data type to another by using the class constructor. This is called type casting.
+age = float(2)
+print (isinstance(age,float))
+
+Operators:
+1) Arithematic operators - Addition(+), subtraction(-), multiplication(*), division(/), remainder(%), square root(**), floor division(//)
+2) Comparison operators - equals (==), not equals(!=), greater than (>), less than (<)
+3) boolean operators - not means to check the statement is not true , and means they both have to be true , or means either one of them have to be true
+4) Bitwise operators - & performs binary AND, | performs binar OR, ^ performs binary XOR operation, ~ performs a binary NOT operation, << shift left operation, >> shift right operation
+5) is operator - it is an idendity operator which is used to compare two objects and returns true if both are the same objects.
+6) in operator - it is called the membership operator this is used to tell if a value is contained in a list.
+7) Ternary operator - it allows you to quickly define a conditional.
+
+Booleans:
+-> it returns true and false value.
+-> all the numbers except for 0 are considered as true even negative numbers are true.
+-> string are false only when empty similarly fro lists, Tuples, dictionary etc.
+
+Built in functions:
+Absolute - abs will return the absolute value of a number.
+Round - round will round it up to the nearest integer.
+
+Enums : enums are readable names that are bound to a constant value
+enums are mostly used to create constants in python so that the value remains the same throughout the whole code
+
+Lists:
+lists are an essential python data structure.
+
+
+FOR LOOPS
+---------
+
+syntax: for i in range(start of value, end of value , increment and decrement)
+
+--> inside the range function we can enter 3 different arguments listed above.
+--> we can also enter any one arument but it can only be the start of the value.
+--> if we want to enter two argument we can use only start of the value and the end of the value.
+--> we can also use any variable instead of the range function.
+--> and the letter 'i' is a variable.
+
+UNIT - 3: Functions
